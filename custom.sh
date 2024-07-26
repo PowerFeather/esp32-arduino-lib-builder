@@ -1,0 +1,1 @@
+./build.sh -I release/v4.4.4 -A release/v2.0.9 -t esp32s3 -b idf_libs qio 80m pm
