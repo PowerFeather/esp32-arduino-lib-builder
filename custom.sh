@@ -6,3 +6,8 @@ cp -r ./extras/*  ./out/tools/sdk/esp32s3/
 rm -rf ~/.arduino15/packages/esp32/hardware/esp32/2.0.9/tools/sdk/esp32s3
 mkdir ~/.arduino15/packages/esp32/hardware/esp32/2.0.9/tools/sdk/esp32s3
 cp -r ./out/tools/sdk/esp32s3/* ~/.arduino15/packages/esp32/hardware/esp32/2.0.9/tools/sdk/esp32s3
+
+
+rm -rf ~/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3
+mkdir ~/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3
+cp -r ./out/tools/sdk/esp32s3/* ~/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3
